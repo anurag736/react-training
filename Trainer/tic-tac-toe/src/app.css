@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Shadows+Into+Light&display=swap');
+
+@font-face {
+    font-family: digital;
+    src: url(http://localhost:3000/fonts/digital-7.ttf);
+}
+
+.header{
+    background-color:lightgreen;
+    padding:10px;
+    box-shadow: 5px 5px 5px black;
+    
+}
+.header h1{   
+    text-shadow: -5px -5px 5px gray;
+}
+
+.header h1 a{
+    color: purple;
+    text-decoration: none;
+}
+.nav li{
+    display:inline;    
+    padding-right:10px;
+}
+.nav li a{
+    color:purple;
+    text-decoration: none;
+}
+
+.app{
+    width:300px;
+}
+
+.container{
+    padding-top:20px;
+}
+
+.game{
+    width:300px;
+    border:2px solid orange;
+    
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.status-message{
+    font-family: 'Shadows Into Light', cursive;
+    text-align:center;
+}
+
+.board{
+    width:240px;
+    border: 5px solid greenyellow;
+}
+
+.cell{
+    /*font-family: 'Shadows Into Light', cursive;*/
+    font-family: 'Permanent Marker', cursive;
+    font-size: 3em;
+    width:80px;
+    height:80px;
+    background-color:white;
+    border:1px solid brown;
+}
+
+.reset-button{    
+    background-color: crimson;   
+    color:white;
+    width:120px;
+    height:40px;
+    margin:5px;
+}
+
+.timer{
+    background-color:black;
+    color:white;
+    display:flex;
+    min-width: 100px;
+    align-items:center;
+    flex-direction:column;
+    border: 1px solid black;
+    padding:5px;
+    border-radius: 20px;
+    margin:10px;
+}
+
+.timer p{
+    font-family: digital;
+    font-size:30px;
+    margin:10px;
+}
+.timer button{
+    margin:5px;
+}
+
+.clocks{
+    display:flex;
+}

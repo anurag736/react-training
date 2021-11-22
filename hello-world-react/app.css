@@ -1,0 +1,32 @@
+.dataDiv{
+    border: blue 1px solid;
+    padding: 3%;
+}
+
+.headerTitle{
+    color:rgb(0, 140, 255) ;
+}
+.body{
+    color: rgb(0, 60, 255);
+}
+.menuItems{
+    list-style-type:none;
+}
+.menuItems li{
+    float: left;
+    margin-left: 10px;
+}
+.content{
+    border: 1px solid #ccc;
+    padding:2%;
+}
+.content h2{
+    font-size:2em;
+    font-style:italic;
+    text-decoration: double;
+}
+.content p{
+font-family:'Courier New', Courier, monospace;
+}
+.header h1{color:orangered;text-shadow: -5px -5px 2px grey;}
+
