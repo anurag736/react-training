@@ -1,0 +1,44 @@
+.container{
+    margin-bottom:5px;
+}
+
+.app-footer{
+    border-top: 1px solid gray;
+    text-align: center;
+    color:gray;
+}
+
+.app-header{
+    border-bottom: 1px solid gray;
+    margin-bottom: 10px;
+
+}
+
+.app-header h1{
+    text-shadow: -2px -2px 2px gray;
+}
+.footer,.app-footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: seagreen;
+    color: white;
+    text-align: center;
+  }
+
+  .hmargin5{
+      margin-left: 5px;
+      margin-right: 5px;
+  }
+
+  .details-photo{
+    box-shadow: -5px -5px 5px gray;
+    border: 10px solid rgb(44, 39, 33);
+    padding:5px;
+}
+
+.screen-title{
+    font-size:3em;
+    text-shadow: -2px -2px 2px gray;
+}
